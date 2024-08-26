@@ -1,0 +1,118 @@
+/* Reset de márgenes y relleno para una base limpia */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo del body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Estilo del header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilo del footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Estilo del main y las cajas */
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 40px; /* Espacio para que el footer no cubra el contenido */
+}
+
+/* Estilo común para las cajas */
+.box {
+    width: 48%;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Estilo específico para la caja izquierda */
+.left {
+    background-color: #e4f9f5;
+}
+
+/* Estilo específico para la caja derecha */
+.right {
+    background-color: #dfe7fd;
+}
+
+/* Estilo general para los botones */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 5px 0 0;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Cambio de color al pasar el mouse sobre el botón */
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo general para el input de texto */
+.text-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Estilo para cambiar el borde del input al enfocarse */
+.text-input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+
+/* Estilo para el resultado de la conversión */
+#outputBox {
+    font-size: 18px;
+    margin-bottom: 20px;
+    min-height: 50px;
+}
+
+/* Estilo para el botón de copiar */
+#copyButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#copyButton:hover {
+    background-color: #218838;
+}
